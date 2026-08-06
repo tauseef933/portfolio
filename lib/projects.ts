@@ -13,6 +13,29 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "nexus",
+    name: "NEXUS",
+    tagline: "Multi-agent voice assistant for English + Roman Urdu",
+    description:
+      "An online-first multi-agent voice assistant that transcribes speech with Groq Whisper, routes each turn to a specialist agent, runs tools when needed, and replies with neural TTS — with a live WebSocket pipeline UI, all on CPU-only laptops.",
+    stack: [
+      "Python",
+      "FastAPI + WebSocket",
+      "Groq Whisper",
+      "Llama 3.3 / Ollama",
+      "edge-tts",
+    ],
+    points: [
+      "Router hands off to specialist agents — Atlas (chat), Scout (weather/search/sites), Archivist (memory), and Echo (YouTube).",
+      "Bilingual English + Roman Urdu voice and typed chat, with neural TTS and per-turn language mirroring.",
+      "Live SVG pipeline visualization driven by WebSocket events — STT → Router → Agent → TTS with latency meters.",
+      "Built for CPU-only machines: local orchestration, free-tier online APIs for heavy models, Ollama fallback when Groq rate-limits.",
+    ],
+    image: "/projects/nexus.png",
+    github: "https://github.com/tauseef933/NEXUS",
+    featured: true,
+  },
+  {
     slug: "codesage",
     name: "CodeSage",
     tagline: "Natural-language search over any codebase",

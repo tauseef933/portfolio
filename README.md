@@ -15,6 +15,7 @@ Open http://localhost:3000
 
 Drop images into `public/projects/` using these exact filenames (referenced in `lib/projects.ts`):
 
+- `nexus.png`
 - `codesage.png`
 - `lexmind-ai.png`
 - `faceless-video.png`
