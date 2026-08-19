@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 const ROLES = [
   {
-    period: "Aug 2025 — Present",
+    period: "Aug 2025 — Aug 2026",
     title: "Junior Machine Learning Engineer",
     org: "DCUBE Technologies · NUST Islamabad",
     points: [
@@ -13,7 +13,7 @@ const ROLES = [
     ],
   },
   {
-    period: "Apr 2025 — Aug 2025",
+    period: "Apr 2025 — July 2025",
     title: "Machine Learning Engineer Intern",
     org: "DCUBE Technologies · NUST Islamabad",
     points: [
