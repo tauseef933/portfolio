@@ -2,85 +2,106 @@
 @tailwind components;
 @tailwind utilities;
 
-::selection {
-  background: #4FD9C7;
-  color: #080B12;
+/* Theme tokens (RGB triplets so Tailwind opacity modifiers work).
+   Dark is the default; light applies when <html data-theme="light">. */
+:root,
+:root[data-theme="dark"] {
+  --bg: 11 13 16; /* #0B0D10 */
+  --surface: 20 23 28; /* #14171C */
+  --surface-2: 27 31 39; /* #1B1F27 */
+  --line: 34 38 46; /* #22262E */
+  --ink: 236 238 241; /* #ECEEF1 */
+  --muted: 161 169 181; /* #A1A9B5 */
+  --accent: 107 140 255; /* #6B8CFF */
+  --on-accent: 11 13 16;
+  color-scheme: dark;
 }
 
-html {
-  scroll-behavior: smooth;
+:root[data-theme="light"] {
+  --bg: 250 250 249; /* #FAFAF9 */
+  --surface: 255 255 255;
+  --surface-2: 244 244 242; /* #F4F4F2 */
+  --line: 228 228 225; /* #E4E4E1 */
+  --ink: 17 19 24; /* #111318 */
+  --muted: 85 91 102; /* #555B66 */
+  --accent: 47 85 212; /* #2F55D4 */
+  --on-accent: 255 255 255;
+  color-scheme: light;
 }
 
-body {
-  background-color: #080B12;
-  color: #E7EAF2;
-  font-feature-settings: "ss01" on, "cv01" on;
-}
-
-/* thin vertical rule used as a rhythm device between sections */
-.rule-v {
-  width: 1px;
-  background: linear-gradient(180deg, transparent, #1E2536, transparent);
-}
-
-.grain::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 50;
-  opacity: 0.035;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-
-.text-balance {
-  text-wrap: balance;
-}
-
-@keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(18px);
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+
+  body {
+    @apply bg-bg font-sans text-ink antialiased;
+  }
+
+  ::selection {
+    background: rgb(var(--accent) / 0.25);
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--accent));
+    outline-offset: 3px;
+    border-radius: 4px;
   }
 }
 
-.animate-fade-up {
-  animation: fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
-/* custom scrollbar to match the theme */
-::-webkit-scrollbar {
-  width: 10px;
+/* Scroll reveal (see components/ui/Reveal.tsx). Only hides content when JS
+   is running (the theme script adds .js), so nothing is lost without JS. */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
+  transition-delay: var(--reveal-delay, 0ms);
 }
-::-webkit-scrollbar-track {
-  background: #080B12;
-}
-::-webkit-scrollbar-thumb {
-  background: #1E2536;
-  border-radius: 999px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #2E9E92;
+.js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
 }
 
-/* focus visibility, kept even though the palette is dark */
-:focus-visible {
-  outline: 2px solid #4FD9C7;
-  outline-offset: 3px;
-  border-radius: 2px;
+/* Project card 3D tilt (see components/ui/ProjectCard.tsx) */
+.tilt {
+  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition: transform 0.25s ease-out, border-color 0.2s ease-out;
+  transform-style: preserve-3d;
+}
+.tilt-sheen {
+  background: radial-gradient(
+    420px circle at var(--mx, 50%) var(--my, 50%),
+    rgb(var(--accent) / 0.1),
+    transparent 60%
+  );
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .tilt {
+    transform: none !important;
+  }
   *,
   *::before,
   *::after {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
-    scroll-behavior: auto !important;
   }
 }
