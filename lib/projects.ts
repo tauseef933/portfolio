@@ -51,7 +51,8 @@ export const projects: Project[] = [
       "Live pipeline view driven by WebSocket events, with latency meters for STT → Router → Agent → TTS.",
       "Falls back to local Ollama when Groq rate-limits.",
     ],
-    image: "/projects/nexus.png",
+    // Renamed with -v2 so Vercel's image cache serves the new screenshot.
+    image: "/projects/nexus-v2.png",
     github: "https://github.com/tauseef933/NEXUS",
     featured: true,
   },
@@ -127,7 +128,7 @@ export const projects: Project[] = [
     // Renamed with -v2 so Vercel's image cache serves the new screenshot.
     image: "/projects/ai-property-assistant-v2.png",
     github: "https://github.com/tauseef933/AI-Property-Assistant",
-    featured: false,
+    featured: true,
   },
 ];
 

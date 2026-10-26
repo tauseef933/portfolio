@@ -5,6 +5,10 @@ import Reveal from "../ui/Reveal";
 import Section from "../ui/Section";
 
 export default function Projects() {
+  // The first card is wide. If that leaves the last card alone in its row, make it wide too.
+  const last = featuredProjects.length - 1;
+  const isWide = (i: number) => i === 0 || (i === last && last % 2 === 1);
+
   return (
     <Section
       id="projects"
@@ -14,8 +18,8 @@ export default function Projects() {
     >
       <div className="grid gap-6 md:grid-cols-2">
         {featuredProjects.map((project, i) => (
-          <Reveal key={project.slug} delay={(i % 2) * 80} className={i === 0 ? "md:col-span-2" : ""}>
-            <ProjectCard project={project} wide={i === 0} priority={i === 0} />
+          <Reveal key={project.slug} delay={(i % 2) * 80} className={isWide(i) ? "md:col-span-2" : ""}>
+            <ProjectCard project={project} wide={isWide(i)} priority={i === 0} />
           </Reveal>
         ))}
       </div>
