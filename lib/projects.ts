@@ -124,7 +124,7 @@ export const projects: Project[] = [
       "Dynamic tool switching for property, pricing and local-weather questions.",
       "City-based caching keeps repeat queries fast and cheap.",
     ],
-    image: "/projects/ai-property-assistant.webp",
+    image: "/projects/ai-property-assistant.png",
     github: "https://github.com/tauseef933/AI-Property-Assistant",
     featured: false,
   },
