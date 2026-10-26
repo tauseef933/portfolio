@@ -124,7 +124,8 @@ export const projects: Project[] = [
       "Dynamic tool switching for property, pricing and local-weather questions.",
       "City-based caching keeps repeat queries fast and cheap.",
     ],
-    image: "/projects/ai-property-assistant.png",
+    // Renamed with -v2 so Vercel's image cache serves the new screenshot.
+    image: "/projects/ai-property-assistant-v2.png",
     github: "https://github.com/tauseef933/AI-Property-Assistant",
     featured: false,
   },
