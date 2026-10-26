@@ -82,8 +82,10 @@ export const projects: Project[] = [
       "Runs end to end on free and self-hosted tools — no paid APIs.",
       "Emails the finished video straight to the requester.",
     ],
-    image: "/projects/faceless-video.png",
-    imagePosition: "left center",
+    // Renamed with -v2 so Vercel's image cache serves the new screenshot.
+    // Square image: crop to the band where the workflow diagram sits.
+    image: "/projects/faceless-video-v2.png",
+    imagePosition: "center 66%",
     github: "https://github.com/tauseef933/n8n-faceless-video",
     featured: true,
   },
