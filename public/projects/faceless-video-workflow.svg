@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<title>n8n workflow: Faceless Shorts Pipeline</title>
+<defs>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#2A2E36"/></pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3FCF8E"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#121418"/>
+<rect width="1600" height="900" fill="url(#dots)"/>
+<text x="70" y="62" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="15" fill="#8B93A1">n8n workflow</text>
+<text x="202" y="62" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#E8EAED">Faceless Shorts Pipeline</text>
+<text x="1530" y="62" text-anchor="end" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="15" fill="#8B93A1">35 nodes · self-hosted</text>
+<text x="85.28571428571429" y="102" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#6F7785" letter-spacing="0.5">01  Brief and ideas</text>
+<text x="85.28571428571429" y="262" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#6F7785" letter-spacing="0.5">02  Pick an idea and research it</text>
+<text x="85.28571428571429" y="422" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#6F7785" letter-spacing="0.5">03  Write the script</text>
+<text x="85.28571428571429" y="582" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#6F7785" letter-spacing="0.5">04  For each scene: image and voiceover</text>
+<text x="85.28571428571429" y="742" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#6F7785" letter-spacing="0.5">05  Render and deliver</text>
+<g fill="none" stroke="#3FCF8E" stroke-width="2" stroke-opacity="0.85" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)">
+<path d="M263.2857142857143 150 L289.85714285714283 150"/>
+<path d="M471.85714285714283 150 L498.42857142857144 150"/>
+<path d="M680.4285714285714 150 L707.0000000000001 150"/>
+<path d="M889.0000000000001 150 L915.5714285714287 150"/>
+<path d="M1097.5714285714287 150 L1124.142857142857 150"/>
+<path d="M1306.142857142857 150 L1332.7142857142858 150"/>
+<path d="M1514.7142857142858 150 H1522.7142857142858 Q1536.7142857142858 150 1536.7142857142858 164 V186 Q1536.7142857142858 200 1522.7142857142858 200 H73.28571428571429 Q59.28571428571429 200 59.28571428571429 214 V296 Q59.28571428571429 310 73.28571428571429 310 H81.28571428571429"/>
+<path d="M263.2857142857143 310 L289.85714285714283 310"/>
+<path d="M471.85714285714283 310 L498.42857142857144 310"/>
+<path d="M680.4285714285714 310 L707.0000000000001 310"/>
+<path d="M889.0000000000001 310 L915.5714285714287 310"/>
+<path d="M1097.5714285714287 310 L1124.142857142857 310"/>
+<path d="M1306.142857142857 310 L1332.7142857142858 310"/>
+<path d="M1514.7142857142858 310 H1522.7142857142858 Q1536.7142857142858 310 1536.7142857142858 324 V346 Q1536.7142857142858 360 1522.7142857142858 360 H73.28571428571429 Q59.28571428571429 360 59.28571428571429 374 V456 Q59.28571428571429 470 73.28571428571429 470 H81.28571428571429"/>
+<path d="M263.2857142857143 470 L289.85714285714283 470"/>
+<path d="M471.85714285714283 470 L498.42857142857144 470"/>
+<path d="M680.4285714285714 470 L707.0000000000001 470"/>
+<path d="M889.0000000000001 470 L915.5714285714287 470"/>
+<path d="M1097.5714285714287 470 L1124.142857142857 470"/>
+<path d="M1181.142857142857 502 V506 Q1181.142857142857 520 1167.142857142857 520 H73.28571428571429 Q59.28571428571429 520 59.28571428571429 534 V616 Q59.28571428571429 630 73.28571428571429 630 H81.28571428571429"/>
+<path d="M263.2857142857143 630 L289.85714285714283 630"/>
+<path d="M471.85714285714283 630 L498.42857142857144 630"/>
+<path d="M680.4285714285714 630 L707.0000000000001 630"/>
+<path d="M889.0000000000001 630 L915.5714285714287 630"/>
+<path d="M1097.5714285714287 630 L1124.142857142857 630"/>
+<path d="M1306.142857142857 630 H1324.142857142857 Q1336.142857142857 630 1336.142857142857 616 V484 Q1336.142857142857 470 1324.142857142857 470 H1310.142857142857"/>
+<path d="M1306.142857142857 454 H1411.7142857142858 Q1425.7142857142858 454 1425.7142857142858 468 V668 Q1425.7142857142858 682 1411.7142857142858 682 H73.28571428571429 Q59.28571428571429 682 59.28571428571429 696 V776 Q59.28571428571429 790 73.28571428571429 790 H81.28571428571429"/>
+<path d="M263.2857142857143 790 L289.85714285714283 790"/>
+<path d="M471.85714285714283 790 L498.42857142857144 790"/>
+<path d="M680.4285714285714 790 L707.0000000000001 790"/>
+<path d="M889.0000000000001 790 L915.5714285714287 790"/>
+</g>
+<defs><marker id="arrowPink" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#F472B6"/></marker></defs>
+<g fill="none" stroke="#F472B6" stroke-width="1.8" stroke-opacity="0.85" stroke-dasharray="6 5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M382.85714285714283 278 V242 Q382.85714285714283 228 396.85714285714283 228 H599.7142857142858"/>
+<path d="M787.7142857142858 228 H994.5714285714287 Q1008.5714285714287 228 1008.5714285714287 214 V186" marker-end="url(#arrowPink)"/>
+</g>
+<text x="390.85714285714283" y="269" text-anchor="start" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="12" fill="#F9A8D4">regenerate</text>
+<text x="651.2142857142857" y="513" text-anchor="middle" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="12" fill="#7FD9AE">each scene</text>
+<text x="1346.142857142857" y="554" text-anchor="start" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="12" fill="#7FD9AE">next scene</text>
+<text x="755.5" y="675" text-anchor="middle" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="12" fill="#7FD9AE">all scenes done</text>
+<g><rect x="603.7142857142858" y="214" width="184" height="28" rx="14" fill="#1E2128" stroke="#3A2A35"/>
+<path transform="translate(615.7142857142858 219) scale(0.75)" d="M7 4h10 M7 20h10 M8 4c0 5 8 5 8 8s-8 3-8 8 M16 4c0 5-8 5-8 8s8 3 8 8" fill="none" stroke="#F472B6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="637.7142857142858" y="232.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500" fill="#D5D8DD">Wait Before Regenerate</text></g>
+<g>
+<rect x="85.28571428571429" y="118" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="95.28571428571429" y="130" width="40" height="40" rx="9" fill="#2DD4BF" fill-opacity="0.14"/>
+<path transform="translate(103.28571428571429 138)" d="M7 4h10v16H7z M9.5 9h5 M9.5 12.5h5 M9.5 16h3" fill="none" stroke="#2DD4BF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145.28571428571428" y="154.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">User Input Form</text>
+</g>
+<g>
+<rect x="293.85714285714283" y="118" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="303.85714285714283" y="130" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(311.85714285714283 138)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="353.85714285714283" y="146.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Prepare Input</text>
+<text x="353.85714285714283" y="162.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Variables</text>
+</g>
+<g>
+<rect x="502.42857142857144" y="118" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="512.4285714285714" y="130" width="40" height="40" rx="9" fill="#FB7185" fill-opacity="0.14"/>
+<path transform="translate(520.4285714285714 138)" d="M3.5 5.5h17v13h-17z M7 9.5l3 2.5-3 2.5 M12 15h5" fill="none" stroke="#FB7185" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="562.4285714285714" y="146.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Create Job</text>
+<text x="562.4285714285714" y="162.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Folder</text>
+</g>
+<g>
+<rect x="711.0000000000001" y="118" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="721.0000000000001" y="130" width="40" height="40" rx="9" fill="#818CF8" fill-opacity="0.14"/>
+<path transform="translate(729.0000000000001 138)" d="M5 19h3.5L18.5 9 15 5.5 5 15.5z M13 7.5l3.5 3.5" fill="none" stroke="#818CF8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="771.0000000000001" y="146.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Generate Idea</text>
+<text x="771.0000000000001" y="162.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Prompt</text>
+</g>
+<g>
+<rect x="919.5714285714287" y="118" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="929.5714285714287" y="130" width="40" height="40" rx="9" fill="#A78BFA" fill-opacity="0.14"/>
+<path transform="translate(937.5714285714287 138)" d="M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18z M3 12h18 M12 3c3.5 3.5 3.5 14.5 0 18 M12 3c-3.5 3.5-3.5 14.5 0 18" fill="none" stroke="#A78BFA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="979.5714285714287" y="146.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Generate Ideas</text>
+<text x="979.5714285714287" y="162.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">(Groq)</text>
+<rect x="999.5714285714287" y="107" width="104" height="20" rx="10" fill="#2A2440" stroke="#4C3F7A"/>
+<text x="1051.5714285714287" y="121" text-anchor="middle" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#C4B5FD">+ backup model</text>
+</g>
+<g>
+<rect x="1128.142857142857" y="118" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="1138.142857142857" y="130" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(1146.142857142857 138)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1188.142857142857" y="154.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Parse Ideas JSON</text>
+</g>
+<g>
+<rect x="1336.7142857142858" y="118" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="1346.7142857142858" y="130" width="40" height="40" rx="9" fill="#2DD4BF" fill-opacity="0.14"/>
+<path transform="translate(1354.7142857142858 138)" d="M7 4h10v16H7z M9.5 9h5 M9.5 12.5h5 M9.5 16h3" fill="none" stroke="#2DD4BF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1396.7142857142858" y="154.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Idea Suggestions</text>
+</g>
+<g>
+<rect x="85.28571428571429" y="278" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="95.28571428571429" y="290" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(103.28571428571429 298)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145.28571428571428" y="306.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Resolve Chosen</text>
+<text x="145.28571428571428" y="322.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Idea</text>
+</g>
+<g>
+<rect x="293.85714285714283" y="278" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="303.85714285714283" y="290" width="40" height="40" rx="9" fill="#34D399" fill-opacity="0.14"/>
+<path transform="translate(311.85714285714283 298)" d="M4 12h6 M10 12l5-5h5 M10 12l5 5h5 M17 4.5l3 2.5-3 2.5 M17 14.5l3 2.5-3 2.5" fill="none" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="353.85714285714283" y="314.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Regenerate Idea?</text>
+</g>
+<g>
+<rect x="502.42857142857144" y="278" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="512.4285714285714" y="290" width="40" height="40" rx="9" fill="#2DD4BF" fill-opacity="0.14"/>
+<path transform="translate(520.4285714285714 298)" d="M7 4h10v16H7z M9.5 9h5 M9.5 12.5h5 M9.5 16h3" fill="none" stroke="#2DD4BF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="562.4285714285714" y="314.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">End Form</text>
+</g>
+<g>
+<rect x="711.0000000000001" y="278" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="721.0000000000001" y="290" width="40" height="40" rx="9" fill="#60A5FA" fill-opacity="0.14"/>
+<path transform="translate(729.0000000000001 298)" d="M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18z M3 12h18 M12 3c3.5 3.5 3.5 14.5 0 18 M12 3c-3.5 3.5-3.5 14.5 0 18" fill="none" stroke="#60A5FA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="771.0000000000001" y="306.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Search Web for</text>
+<text x="771.0000000000001" y="322.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Context</text>
+</g>
+<g>
+<rect x="919.5714285714287" y="278" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="929.5714285714287" y="290" width="40" height="40" rx="9" fill="#F472B6" fill-opacity="0.14"/>
+<path transform="translate(937.5714285714287 298)" d="M7 4h10 M7 20h10 M8 4c0 5 8 5 8 8s-8 3-8 8 M16 4c0 5-8 5-8 8s8 3 8 8" fill="none" stroke="#F472B6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="979.5714285714287" y="306.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Wait (Rate Limit</text>
+<text x="979.5714285714287" y="322.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Pacing) 1</text>
+</g>
+<g>
+<rect x="1128.142857142857" y="278" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="1138.142857142857" y="290" width="40" height="40" rx="9" fill="#A78BFA" fill-opacity="0.14"/>
+<path transform="translate(1146.142857142857 298)" d="M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18z M3 12h18 M12 3c3.5 3.5 3.5 14.5 0 18 M12 3c-3.5 3.5-3.5 14.5 0 18" fill="none" stroke="#A78BFA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1188.142857142857" y="306.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Summarize Web</text>
+<text x="1188.142857142857" y="322.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Context</text>
+<rect x="1208.142857142857" y="267" width="104" height="20" rx="10" fill="#2A2440" stroke="#4C3F7A"/>
+<text x="1260.142857142857" y="281" text-anchor="middle" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#C4B5FD">+ backup model</text>
+</g>
+<g>
+<rect x="1336.7142857142858" y="278" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="1346.7142857142858" y="290" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(1354.7142857142858 298)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1396.7142857142858" y="306.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Calculate Scene</text>
+<text x="1396.7142857142858" y="322.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Count</text>
+</g>
+<g>
+<rect x="85.28571428571429" y="438" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="95.28571428571429" y="450" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(103.28571428571429 458)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145.28571428571428" y="466.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Build Script</text>
+<text x="145.28571428571428" y="482.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Prompt</text>
+</g>
+<g>
+<rect x="293.85714285714283" y="438" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="303.85714285714283" y="450" width="40" height="40" rx="9" fill="#F472B6" fill-opacity="0.14"/>
+<path transform="translate(311.85714285714283 458)" d="M7 4h10 M7 20h10 M8 4c0 5 8 5 8 8s-8 3-8 8 M16 4c0 5-8 5-8 8s8 3 8 8" fill="none" stroke="#F472B6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="353.85714285714283" y="466.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Wait (Rate Limit</text>
+<text x="353.85714285714283" y="482.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Pacing) 2</text>
+</g>
+<g>
+<rect x="502.42857142857144" y="438" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="512.4285714285714" y="450" width="40" height="40" rx="9" fill="#A78BFA" fill-opacity="0.14"/>
+<path transform="translate(520.4285714285714 458)" d="M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18z M3 12h18 M12 3c3.5 3.5 3.5 14.5 0 18 M12 3c-3.5 3.5-3.5 14.5 0 18" fill="none" stroke="#A78BFA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="562.4285714285714" y="474.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Generate Script</text>
+<rect x="582.4285714285714" y="427" width="104" height="20" rx="10" fill="#2A2440" stroke="#4C3F7A"/>
+<text x="634.4285714285714" y="441" text-anchor="middle" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#C4B5FD">+ backup model</text>
+</g>
+<g>
+<rect x="711.0000000000001" y="438" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="721.0000000000001" y="450" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(729.0000000000001 458)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="771.0000000000001" y="466.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Parse Script</text>
+<text x="771.0000000000001" y="482.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">JSON</text>
+</g>
+<g>
+<rect x="919.5714285714287" y="438" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="929.5714285714287" y="450" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(937.5714285714287 458)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="979.5714285714287" y="474.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Explode Scenes</text>
+</g>
+<g>
+<rect x="1128.142857142857" y="438" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="1138.142857142857" y="450" width="40" height="40" rx="9" fill="#22D3EE" fill-opacity="0.14"/>
+<path transform="translate(1146.142857142857 458)" d="M19 12a7 7 0 1 1-2-4.9 M19 4.5v3.5h-3.5" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1188.142857142857" y="474.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Loop Over Scenes</text>
+</g>
+<g>
+<rect x="85.28571428571429" y="598" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="95.28571428571429" y="610" width="40" height="40" rx="9" fill="#60A5FA" fill-opacity="0.14"/>
+<path transform="translate(103.28571428571429 618)" d="M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18z M3 12h18 M12 3c3.5 3.5 3.5 14.5 0 18 M12 3c-3.5 3.5-3.5 14.5 0 18" fill="none" stroke="#60A5FA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145.28571428571428" y="626.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Generate Scene</text>
+<text x="145.28571428571428" y="642.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Image</text>
+</g>
+<g>
+<rect x="293.85714285714283" y="598" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="303.85714285714283" y="610" width="40" height="40" rx="9" fill="#A3E635" fill-opacity="0.14"/>
+<path transform="translate(311.85714285714283 618)" d="M12 4v10 M8 10l4 4 4-4 M5 19h14" fill="none" stroke="#A3E635" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="353.85714285714283" y="634.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Save Scene Image</text>
+</g>
+<g>
+<rect x="502.42857142857144" y="598" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="512.4285714285714" y="610" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(520.4285714285714 618)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="562.4285714285714" y="626.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Prepare</text>
+<text x="562.4285714285714" y="642.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Voiceover</text>
+</g>
+<g>
+<rect x="711.0000000000001" y="598" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="721.0000000000001" y="610" width="40" height="40" rx="9" fill="#FB7185" fill-opacity="0.14"/>
+<path transform="translate(729.0000000000001 618)" d="M3.5 5.5h17v13h-17z M7 9.5l3 2.5-3 2.5 M12 15h5" fill="none" stroke="#FB7185" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="771.0000000000001" y="626.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Generate Scene</text>
+<text x="771.0000000000001" y="642.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Voiceover</text>
+</g>
+<g>
+<rect x="919.5714285714287" y="598" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="929.5714285714287" y="610" width="40" height="40" rx="9" fill="#F472B6" fill-opacity="0.14"/>
+<path transform="translate(937.5714285714287 618)" d="M7 4h10 M7 20h10 M8 4c0 5 8 5 8 8s-8 3-8 8 M16 4c0 5-8 5-8 8s8 3 8 8" fill="none" stroke="#F472B6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="979.5714285714287" y="626.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Wait (Free Image</text>
+<text x="979.5714285714287" y="642.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Rate Limit)</text>
+</g>
+<g>
+<rect x="1128.142857142857" y="598" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="1138.142857142857" y="610" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(1146.142857142857 618)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1188.142857142857" y="626.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Record Scene</text>
+<text x="1188.142857142857" y="642.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Paths</text>
+</g>
+<g>
+<rect x="85.28571428571429" y="758" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="95.28571428571429" y="770" width="40" height="40" rx="9" fill="#F5B83D" fill-opacity="0.14"/>
+<path transform="translate(103.28571428571429 778)" d="M9 7l-4 5 4 5 M15 7l4 5-4 5" fill="none" stroke="#F5B83D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145.28571428571428" y="786.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Build Scenes</text>
+<text x="145.28571428571428" y="802.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Manifest</text>
+</g>
+<g>
+<rect x="293.85714285714283" y="758" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="303.85714285714283" y="770" width="40" height="40" rx="9" fill="#A3E635" fill-opacity="0.14"/>
+<path transform="translate(311.85714285714283 778)" d="M12 4v10 M8 10l4 4 4-4 M5 19h14" fill="none" stroke="#A3E635" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="353.85714285714283" y="786.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Write Scenes</text>
+<text x="353.85714285714283" y="802.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Manifest File</text>
+</g>
+<g>
+<rect x="502.42857142857144" y="758" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="512.4285714285714" y="770" width="40" height="40" rx="9" fill="#FB7185" fill-opacity="0.14"/>
+<path transform="translate(520.4285714285714 778)" d="M3.5 5.5h17v13h-17z M7 9.5l3 2.5-3 2.5 M12 15h5" fill="none" stroke="#FB7185" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="562.4285714285714" y="786.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Render Final</text>
+<text x="562.4285714285714" y="802.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Video</text>
+</g>
+<g>
+<rect x="711.0000000000001" y="758" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="721.0000000000001" y="770" width="40" height="40" rx="9" fill="#A3E635" fill-opacity="0.14"/>
+<path transform="translate(729.0000000000001 778)" d="M12 14V4 M8 8l4-4 4 4 M5 19h14" fill="none" stroke="#A3E635" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="771.0000000000001" y="786.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Read Final Video</text>
+<text x="771.0000000000001" y="802.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">File</text>
+</g>
+<g>
+<rect x="919.5714285714287" y="758" width="178" height="64" rx="11" fill="#1E2128" stroke="#30353F" stroke-width="1.2"/>
+<rect x="929.5714285714287" y="770" width="40" height="40" rx="9" fill="#F87171" fill-opacity="0.14"/>
+<path transform="translate(937.5714285714287 778)" d="M4 6.5h16v11H4z M4 7.5l8 6 8-6" fill="none" stroke="#F87171" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="979.5714285714287" y="786.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">Email Video to</text>
+<text x="979.5714285714287" y="802.5" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAED">User</text>
+</g>
+</svg>

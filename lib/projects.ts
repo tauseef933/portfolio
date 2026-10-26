@@ -78,14 +78,13 @@ export const projects: Project[] = [
     pipeline: "Form → Script → Images → FFmpeg → Email",
     stack: ["n8n", "Groq", "Pollinations.ai", "FFmpeg"],
     highlights: [
-      "A 27-node self-hosted n8n workflow: script generation (Groq) → images (Pollinations.ai) → assembly (FFmpeg).",
+      "A 35-node self-hosted n8n workflow: script generation (Groq) → images (Pollinations.ai) → assembly (FFmpeg).",
       "Runs end to end on free and self-hosted tools — no paid APIs.",
       "Emails the finished video straight to the requester.",
     ],
-    // Renamed with -v2 so Vercel's image cache serves the new screenshot.
-    // Square image: crop to the band where the workflow diagram sits.
-    image: "/projects/faceless-video-v2.png",
-    imagePosition: "center 66%",
+    // Vector redraw of the real n8n workflow (sharp at any size).
+    image: "/projects/faceless-video-workflow.svg",
+    imagePosition: "center",
     github: "https://github.com/tauseef933/n8n-faceless-video",
     featured: true,
   },
